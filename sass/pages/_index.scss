@@ -1,0 +1,183 @@
+.nav-fondo {
+  background-color: $transparent-black;
+}
+
+.black {
+  background-color: $secondary-color;
+
+}
+
+.navbar-collapse.show {
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 375px) {
+  .img-responsive {
+    width: 150px;
+    height: auto;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .textos {
+    font-size: $base-font-size-xs !important;
+  }
+
+}
+
+.hero-efecto {
+  z-index: $z-index-imagen;
+  top: -100px;
+  height: 90vh;
+  background-image: url('../../assets/images/image1.jpg');
+}
+
+
+.nav-item a {
+  color: $primary-color;
+  white-space: nowrap;
+}
+
+.link-activo {
+  color: $accent-color !important;
+}
+
+.dropdown-toggle:after {
+  color: $accent-color !important;
+}
+
+.nav-item a:hover {
+  color: $accent-color;
+}
+
+.centrado-texto {
+  margin-top: 9rem !important;
+}
+
+.boton-call {
+  padding: 5px 30px !important;
+  color: $accent-color !important;
+  border-color: $accent-color !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
+}
+.titulo1 {
+  font-family: $base-ff-tenor;
+  letter-spacing: $base-spacing;
+  
+}
+.titulos {
+  font-family: $base-ff-tenor;
+  letter-spacing: $base-spacing;
+  text-decoration-line: underline;
+  text-decoration-color: $secondary-color;
+  text-decoration-thickness: 1px;
+  text-decoration-style: solid;
+  text-underline-offset: 0.5em;
+  -moz-text-decoration-color: $secondary-color;
+  padding-bottom: 20px;
+  
+}
+
+.textos {
+  font-family: $base-ff-poppins;
+}
+
+.fondo-textos {
+  background-color: $primary-color;
+  margin-top: -100px;
+}
+
+.borde-card {
+  padding: 15px;
+  border: 1px solid $transparent-black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+}
+
+.boton-go {
+  padding: 12px 20px !important;
+  background-color: $secondary-color !important;
+  color: $primary-color !important;
+  border-color: $secondary-color !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
+}
+.boton-go-line {
+  padding: 12px 20px !important;
+  background-color: transparent !important;
+  color: $secondary-color !important;
+  border-color: $secondary-color !important;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5rem !important;
+  -webkit-border-radius: 5rem !important;
+  -moz-border-radius: 5rem !important;
+  -ms-border-radius: 5rem !important;
+  -o-border-radius: 5rem !important;
+  white-space: nowrap;
+}
+
+.btn {
+  display: block;
+  background-color: var(--secondary);
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-body {
+  display: grid !important;
+  padding: 0 0 16px 0 !important;
+}
+
+.card,
+.card-header {
+  border: none !important;
+  background-color: $primary-color !important;
+}
+.icons{
+  color: $secondary-color !important;
+  font-size: $icon-font-size;
+
+
+}
+.date{
+  padding: 0!important;
+  margin: 0!important;
+  font-size: $base-font-size-xs;
+  color: $transparent-black-date;
+}
+.hero-efecto-contacto {
+  z-index: $z-index-imagen;
+  top: -10;
+  background-image: url('../../assets/images/image1.jpg');
+}
+.centrado-texto-contacto {
+  margin-top: 0 !important;
+
+}
+.form{
+  width: 400px;
+}

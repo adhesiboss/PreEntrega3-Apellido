@@ -1,0 +1,78 @@
+// _base.scss
+
+// Colores
+$primary-color: #f8f8f8;
+$secondary-color: #0c0b0b;
+$accent-color: #f87c00;
+$transparent-black:rgb(12 11 11 / 15%); 
+$transparent-black-date:rgb(12 11 11 / 40%); 
+
+
+// Tamaños de fuente
+$base-font-size: 14px;
+$base-font-size-xs: 12px;
+$heading-font-size: 24px;
+$icon-font-size: 40px;
+
+
+// Espaciado
+$base-spacing: -3px;
+
+// Bordes y radios
+$border-width: 1px;
+$border-radius: 4px;
+
+// Opacidades
+$base-opacity: 0.3;
+
+// Fuentes
+$base-ff-poppins: 'Poppins',
+sans-serif;
+$base-ff-tenor: 'Tenor Sans',
+sans-serif;
+
+// Z-index
+$z-index-header: 100;
+$z-index-modal: 200;
+$z-index-imagen: -2;
+
+
+
+// Animaciones
+$transition-duration: 0.3s;
+
+// Breakpoints
+$breakpoint-xs: 0;            // Extra pequeño
+$breakpoint-sm: 576px;        // Pequeño
+$breakpoint-md: 768px;        // Mediano
+$breakpoint-lg: 992px;        // Grande
+$breakpoint-xl: 1200px;       // Extra grande
+
+// Uso de las variables en estilos condicionales
+$mobile: "only screen and (max-width: #{($breakpoint-sm - 1)})";
+$tablet: "only screen and (min-width: #{$breakpoint-sm}) and (max-width: #{($breakpoint-md - 1)})";
+$desktop: "only screen and (min-width: #{$breakpoint-md})";
+$large-desktop: "only screen and (min-width: #{$breakpoint-lg})";
+$extra-large-desktop: "only screen and (min-width: #{$breakpoint-xl})";
+
+@mixin center-both {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Mixin para establecer las propiedades de borde redondeado
+@mixin border-radius($radius: 4px) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
