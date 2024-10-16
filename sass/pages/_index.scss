@@ -32,7 +32,7 @@
   z-index: $z-index-imagen;
   top: -100px;
   height: 90vh;
-  background-image: url('../../assets/images/image1.jpg');
+  background-image: url('./assets/images/image1.jpg');
 }
 
 
@@ -172,7 +172,7 @@
 .hero-efecto-contacto {
   z-index: $z-index-imagen;
   top: -10;
-  background-image: url('../../assets/images/image1.jpg');
+  background-image: url('./assets/images/image1.jpg');
 }
 .centrado-texto-contacto {
   margin-top: 0 !important;
