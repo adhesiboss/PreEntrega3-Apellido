@@ -4,71 +4,154 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YOGA Producto</title>
+  <title>AKSAYA / Yoga - Studio</title>
+
+  <meta name="description"
+    content="Descubre nuestras clases de yoga para todos los niveles. Encuentra paz y equilibrio a través de la práctica del yoga.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Clases de Yoga: Encuentra tu Paz Interior">
+  <meta property="og:description"
+    content="Descubre nuestras clases de yoga para todos los niveles. Encuentra paz y equilibrio a través de la práctica del yoga.">
+  <meta property="og:image" content="URL_de_la_imagen_relacionada_con_yoga.jpg">
+  <meta name="keywords" content="yoga, clases de yoga, paz interior, bienestar, salud, meditación">
+  <meta name="author" content="Nombre del Instructor de Yoga">
+  <meta name="geo.region" content="CL-RM">
+  <meta name="geo.placename" content="Santiago">
+
+
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tenor+Sans&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="./css/styles.css">
-
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/heroes/hero-1/assets/css/hero-1.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
-<body>
-  <header class="cabecera">
-    <h3>LOGO Principal</h3>
-    <nav>
-
-      <ul class="menu">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./about-me.html">AboutMe</a></li>
-        <li><a href="#">Cronograma</a></li>
-        <li><a href="./clases.html">Clases</a></li>
-        <li><a href="./formaciones.html">Formaciones</a></li>
-        <li><a href="./agenda.html">Agenda</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
-
-      </ul>
-
+<body class="white">
+  <header>
+    <nav class="navbar navbar-expand-lg  nav-fondo px-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="img-responsive" src="../assets/images/aksaya_logotipo.png" alt="logotipo" width="229" height="71">
+        </a>
+        <button class="navbar-toggler border-light bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./about-me.html">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active link-activo" href="#">Cronograma</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./clases.html">Clases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle disabled link-disabled" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Idioma
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Español</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn boton-call" type="submit">Iniciar Sesión</button>
+          </form>
+        </div>
+      </div>
     </nav>
 
-    <h4>ES / EN</h4>
-    <a href=>Inicio de Sesión</a>
   </header>
+  <main class="fondo-textos px-4 px-sm-5 espacio-crono">
+    <section class=" text-center pt-5 px-4 container-fluid fondo-textos pb-5 ">
+      <h2 class="titulos mb-4">Cronograma</h2>
+      <div
+        class=" row justify-content-center align-items-stretch justify-content-sm-around d-sm-flex px-md-4 gap-1 px-2 ">
 
-  <main>
-    <section class="cronograma">
-      <h2>titulo principal</h2>
-      <img src="" alt="">
-      <div>
-        <h3>titulo principal</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum voluptate repudiandae, sint illo inventore hic fugiat est ad quidem neque corrupti nisi accusantium saepe optio? Perferendis ipsum sint earum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum voluptate repudiandae, sint illo inventore hic fugiat est ad quidem neque corrupti nisi accusantium saepe optio? Perferendis ipsum sint earum?</p>
-        <a href="">ir</a>
-      </div>
-      <div>
-        <h3>titulo principal</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum voluptate repudiandae, sint illo inventore hic fugiat est ad quidem neque corrupti nisi accusantium saepe optio? Perferendis ipsum sint earum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum voluptate repudiandae, sint illo inventore hic fugiat est ad quidem neque corrupti nisi accusantium saepe optio? Perferendis ipsum sint earum?</p>
-        <a href="">ir</a>
-      </div>
-      <div>
-        <h3>titulo principal</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum voluptate repudiandae, sint illo inventore hic fugiat est ad quidem neque corrupti nisi accusantium saepe optio? Perferendis ipsum sint earum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse earum voluptate repudiandae, sint illo inventore hic fugiat est ad quidem neque corrupti nisi accusantium saepe optio? Perferendis ipsum sint earum?</p>
-        <a href="">ir</a>
+        <div class="card align-items-stretch  mb-5 col-12 col-md-4 col-lg-3 justify-content-lg-around gap-lg-4 px-lg-2">
+          <div class="card-header">
+            <h5 class="fw-bold mt-3 text-center">Video Cursos</h5>
+          </div>
+          <div class="card-body">
+            <p class="textos mt-4 text-center ">
+              Sumérgete en la serenidad con nuestros cursos de yoga en vídeo, diseñados para armonizar cuerpo y mente
+              desde la comodidad de tu hogar. ¡Descubre tu mejor versión con nuestra guía experta!
+
+            </p>
+            <div class="d-flex justify-content-end">
+              <button class="btn boton-go align-self-end" type="submit">Ir</button>
+            </div>
+          </div>
+        </div>
+        <div class="card align-items-stretch  mb-5 col-12 col-md-4 col-lg-3 justify-content-lg-around gap-lg-4 px-lg-2">
+          <div class="card-header">
+            <h5 class="fw-bold mt-3 text-center">Programas</h5>
+          </div>
+          <div class="card-body">
+            <p class="textos mt-4 text-center ">
+              Equilibra cuerpo y mente con nuestros programas de yoga, diseñados para guiarte hacia la paz interior y la
+              vitalidad. Descubre tu bienestar con nuestras prácticas especializadas.
+
+            </p>
+            <div class="d-flex justify-content-end">
+              <button class="btn boton-go align-self-end" type="submit">Ir</button>
+            </div>
+          </div>
+        </div>
+        <div class="card align-items-stretch  mb-5 col-12 col-md-4 col-lg-3 justify-content-lg-around gap-lg-4 px-lg-2">
+          <div class="card-header">
+            <h5 class="fw-bold mt-3 text-center">Formaciones</h5>
+          </div>
+          <div class="card-body">
+            <p class="textos mt-4 text-center ">
+              Amplía tus horizontes con nuestras formaciones de yoga, donde profundizarás en las enseñanzas ancestrales
+              y
+              desarrollarás tus habilidades como instructor. Únete a nuestra comunidad y conviértete en un guía experto
+              del bienestar.
+
+            </p>
+            <div class="d-flex justify-content-end">
+              <button class="btn boton-go align-self-end" type="submit">Ir</button>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </section>
-  </main>
-  <footer>
-    <div>
-      <p>Todos los derechos reservados © 2019</p>
-    </div>
-    <div>
-      <a href="#">Facebook</a>
-      <a href="#">Instagram</a>
-      <a href="#">Twitter</a>
-    </div>
 
-  </footer>
+  </main>
+ 
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
 
 </body>
 
